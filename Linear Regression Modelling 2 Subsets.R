@@ -20,6 +20,10 @@ hist(tempMean, main = "Histogram of Temperature Data")
 #Full Linear Model (using all data)
 lm(tempMean ~ yrTime, main = "Full Linear Model")
 
+
+#######################################################################################
+
+
 #Full Dataset Plot
 plot(yrTime, tempMean, type = "l", main = "Global Annual Data (Land & Ocean)", xlab = "Time (Year)", ylab = "Temperature Anomalies (Mean)" )
 
@@ -61,6 +65,6 @@ abline(e, col = "Orange", lwd = 2)
 legend("topleft", inset=.05, title="Linear Regression Lines",
        c("1880 - 1910: Blue","1880 - 1975: Yellow","1880 - 1950: Green","1880 - 2000: Orange","1880 - 2014: Red"), horiz=FALSE)
 
-
+#######################################################################################
 
 
